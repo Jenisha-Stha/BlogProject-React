@@ -1,6 +1,5 @@
 import {BrowserRouter, Routes, Route} from 'react-router-dom'
 
-import './App.css'
 import Home from './pages/blog/Home'
 import Register from './pages/auth/Register'
 import Login from './pages/auth/Login'
