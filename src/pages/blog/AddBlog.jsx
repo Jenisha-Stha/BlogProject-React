@@ -1,9 +1,13 @@
-import Navbar from "../../components/Navbar/Navbar"
+import Layout from "../../components/Layout/Layout"
+import Form from "./form/Form"
+
 
 const AddBlog = () => {
   return (
     <>
-    <Navbar />
+    <Layout>
+     <Form type="Add" />
+    </Layout>
     </>
   )
 }
